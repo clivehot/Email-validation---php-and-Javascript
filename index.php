@@ -98,7 +98,7 @@
          //Reg Expression for links
          var linkRegExp = /\b(?:(?:https?|ftp|http):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/g;
          
-         var name_input = document.ContactForm.CustomerName.value
+         var name_input = document.ContactForm.CustomerName.value;
          if( name_input == "" ) {
             alert( "Please provide your name!" );
             document.ContactForm.CustomerName.focus() ;
